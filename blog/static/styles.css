@@ -1,0 +1,65 @@
+body {
+    background-color: #f8f4e4;
+    color: #463f3a;
+}
+
+/* Estilos para las tarjetas (cards) */
+.card {
+    background-color: #f0e1cb;
+    border: 1px solid #d4c0a1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el encabezado de las tarjetas */
+.card-header {
+    background-color: pink;
+    color: #473b2c;
+}
+
+/* Estilos para el pie de las tarjetas */
+.card-footer {
+    background-color: darkorchid; 
+    color: #473b2c;
+    border-top: 1px solid #d4c0a1;
+}
+
+.badge.bg-primary {
+    background-color: #e7c18c;
+    color: #473b2c;
+    margin-right: 5px;
+}
+
+.card-footer .badge.bg-primary {
+    background-color: #e7c18c;
+    color: #473b2c;
+    margin-right: 5px;
+}
+
+/* Estilos para el botón de inicio de sesión */
+.login-button {
+    background-color: pink;
+    font-size: 17px;
+    color: #473b2c;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: auto;
+}
+
+/* Estilos para el enlace del botón de inicio de sesión en el encabezado */
+.container h1 a.login-button {
+    text-decoration: none;
+}
+
+/* Estilos para las insignias en el pie de las tarjetas (ajustando el color de fondo) */
+.card-footer .badge.bg-primary {
+    background-color: whitesmoke !important;;
+    color: #473b2c;
+}
+
+
+/* Estilos para el elemento con ID 'fecha' */
+#fecha{
+    color: aqua;
+}
